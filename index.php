@@ -90,10 +90,10 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
           <a class="navbar-brand" href="http://www.miltonrooms.com">MiltonRooms.com</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <div class="navbar navbar-right">
-            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Find us
-            <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>Our rooms
-          </div>
+          <ul class="nav navbar-nav navbar-rigth">
+            <li><a href="#map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Find us</a></li>
+            <li><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></li>
+          </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
