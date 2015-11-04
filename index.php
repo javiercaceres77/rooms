@@ -62,7 +62,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
     
 	<link rel="icon" href="../../favicon.ico">
 
-    <title>::: Lcgaste.com :::</title>
+    <title>::: MiltonRooms.com :::</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -87,7 +87,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://www.lcgaste.com">Lcgaste.com</a>
+          <a class="navbar-brand" href="http://www.lcgaste.com">MiltonRooms.com</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" action="<?= $conf_main_page; ?>?action=login" method="post" name="login_form">
@@ -170,7 +170,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
       </div>
     </div>-->
     <div class="container">
-      <div class="row">
+      <!--<div class="row">
 	    <div class="websites">
 		<div class="col-lg-4">
 		  <img class="img-circle" src="<?= $conf_images_path; ?>rocaya_capture.png" alt="www.rocaya.com" height="140" width="140">
