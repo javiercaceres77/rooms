@@ -87,22 +87,13 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://www.lcgaste.com">MiltonRooms.com</a>
+          <a class="navbar-brand" href="http://www.miltonrooms.com">MiltonRooms.com</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" action="<?= $conf_main_page; ?>?action=login" method="post" name="login_form">
-		<div class="input-group">
-		  <input type="text" class="form-control" placeholder="Username" aria-describedby="usrname" name="user" id="user">
-		  <span class="input-group-addon" id="usrname">@</span>
-		</div>
-		<div class="input-group">
-		  <input type="text" class="form-control" placeholder="Password" aria-describedby="pasapalabra" name="pass" id="pass">
-		  <span class="input-group-addon" id="pasapalabra">
-		  	<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
-		  </span>
-		</div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+          <div class="navbar navbar-right">
+            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Find us
+            <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>Our rooms
+          </div>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
