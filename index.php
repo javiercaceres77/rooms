@@ -164,7 +164,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 	<div class="row">
 	  <div class="col-md-6" align="center">
 	  	<p class="lead">Less than 30 min by bus from Milton Keynes Central</p>
-	  	<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39262.69994070112!2d-0.7628756683185792!3d52.04479278452627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x48764cf882238685%3A0x161a9df74cb97e14!2sCentral+Milton+Keynes%2C+Milton+Keynes!3m2!1d52.0406224!2d-0.7594171!5e0!3m2!1ses!2suk!4v1446723105258" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  	<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39262.63251487184!2d-0.7675201183178741!3d52.04486953452978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x4877000979c605f3%3A0x589bc8778e2ba794!2sMilton+Keynes+Central%2C+Reino+Unido!3m2!1d52.034299999999995!2d-0.77413!5e0!3m2!1ses!2suk!4v1446724037278" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	  </div>
 	  <div class="col-md-6" align="center">
 	     <p class="lead">Very close to Cranfield University</p>
