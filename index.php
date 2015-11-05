@@ -91,8 +91,8 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-rigth">
-            <li><h4><a href="#map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Find us</a></h4></li>
-            <li><h4><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></h4></li>
+            <li><a href="#map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Find us</a></li>
+            <li><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -162,12 +162,12 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
     </div>-->
     <div class="container">
 	<div class="row">
-	  <div class="col-md-6">
-	  	<p class="bg-info">Less than 30 min by bus from Milton Keynes Central</p>
+	  <div class="col-md-6" align="center">
+	  	<p class="lead">Less than 30 min by bus from Milton Keynes Central</p>
 	  	<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39262.69994070112!2d-0.7628756683185792!3d52.04479278452627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x48764cf882238685%3A0x161a9df74cb97e14!2sCentral+Milton+Keynes%2C+Milton+Keynes!3m2!1d52.0406224!2d-0.7594171!5e0!3m2!1ses!2suk!4v1446723105258" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	  </div>
-	  <div class="col-md-6">
-	     <p class="bg-info">Very close to Cranfield University</p>
+	  <div class="col-md-6" align="center">
+	     <p class="lead">Very close to Cranfield University</p>
 	     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39239.418206670496!2d-0.708700668067375!3d52.0712893357393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x4877ac4d48c8faeb%3A0x44c903e6bd92ce97!2sCranfield+University%2C+College+Rd%2C+Cranfield%2C+Bedford+MK43+0AL%2C+Reino+Unido!3m2!1d52.074389!2d-0.6292249999999999!5e0!3m2!1ses!2suk!4v1446723644960" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	  </div>
 	</div>
