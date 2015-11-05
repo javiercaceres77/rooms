@@ -161,62 +161,18 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
       </div>
     </div>-->
     <div class="container">
-      <!--<div class="row">
-	    <div class="websites">
-		<div class="col-lg-4">
-		  <img class="img-circle" src="<?= $conf_images_path; ?>rocaya_capture.png" alt="www.rocaya.com" height="140" width="140">
-		  <h2>rocaya.com</h2>
-		  <p>Rock climbing, crags, routes, blog and photos about climbing</p>
-		  <p><a class="btn btn-default" href="http://www.rocaya.com" role="button">Enter &raquo;</a></p>
-		</div>
-		<div class="col-lg-4">
-		  <img class="img-circle" src="<?= $conf_images_path; ?>lcguest_capture.png" alt="www.lcguest.com" height="140" width="140">
-		  <h2>LCGuest</h2>
-		  <p>Stay with us. </p>
-		  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-		</div>
-		<div class="col-lg-4">
-		  <img class="img-circle" src="<?= $conf_images_path; ?>ersmsk.png" alt="www.ersmsk.com" height="140" width="140">
-		  <h2>ERSMSK.com</h2>
-		  <p>ERS Global is an international project finance and energy consulting company, specialising in the delivery of engineering projects, energy resources consulting, procurement of project financing and government liaison to effect projects..</p>
-		  <p><a class="btn btn-default" href="http://www.ersmsk.com" role="button">Enter &raquo;</a></p>
-		</div>
-        </div><!-- websites -->
-	  </div><!-- row -->
-	<!--  
-	<div class="container">
-		<div class="labs">
-			<div class="row">
-				<div class="col-md-4">
-					pi pic
-				</div>
-				<div class="col-md-8">
-					<h3>Raspberry PI</h3>
-					<p>Some experiments with Raspberry PI: Web server, Current Cost logger</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8">
-					<h3>Sports Club manager</h3>
-					<p>Our Sports Club manager allows to manage bookings, users, payments, schedules, classes, etc.</p>
-				</div>
-				<div class="col-md-4">
-					padel pic
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					arduino pic
-				</div>
-				<div class="col-md-8">
-					<h3>Arduino</h3>
-					<p>Arduino stuff we're working on</p>
-				</div>
-			</div>
-		</div>
+	<div class="row">
+	  <div class="col-md-6">
+	  	Less than 30 min by bus from Milton Keynes Central
+	  	<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39262.69994070112!2d-0.7628756683185792!3d52.04479278452627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x48764cf882238685%3A0x161a9df74cb97e14!2sCentral+Milton+Keynes%2C+Milton+Keynes!3m2!1d52.0406224!2d-0.7594171!5e0!3m2!1ses!2suk!4v1446723105258" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+	  <div class="col-md-6">
+	     Very close to Cranfield University
+	     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39239.418206670496!2d-0.7087006680673494!3d52.0712893357393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x4877ac4d48c8faeb%3A0x44c903e6bd92ce97!2sCranfield+University%2C+College+Rd%2C+Cranfield%2C+Bedford+MK43+0AL%2C+Reino+Unido!3m2!1d52.074389!2d-0.6292249999999999!5e0!3m2!1ses!2suk!4v1446722743768" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
 	</div>
-      <hr>
-      -->
+      </div>
+
       <footer>
         <p>&copy; Lcgaste ltd. <?= date('Y'); ?></p>
       </footer>
