@@ -59,7 +59,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
     <meta name="description" content="LCGaste Ltd" />
 	<meta name="keywords" content="LCGaste Rocaya ersmsk" />
 	<meta name="author" content="humans.txt">
-    
+
 	<link rel="icon" href="../../favicon.ico">
 
     <title>::: MiltonRooms.com :::</title>
@@ -87,12 +87,13 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://www.miltonrooms.com">MiltonRooms.com</a>
+          <a class="navbar-brand" href="http://www.miltonrooms.com">MiltonRooms.com &nbsp;<small><em>Short stay rooms</em></small></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-rigth">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Find us</a></li>
             <li><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></li>
+			<li><a href="mailto:miltonrooms@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -129,19 +130,19 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
             </div>-->
           </div>
         </div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB4.PNG" class="img-responsive" alt="Responsive image"></div></div>
+        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB4.jpg" class="img-responsive" alt="Responsive image"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomA4.jpg" class="img-responsive" alt="Responsive image"></div></div>
 		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomB2.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomA1.PNG" class="img-responsive" alt="Responsive image"></div></div>
+		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomA1.jpg" class="img-responsive" alt="Responsive image"></div></div>
 		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomB1.JPG" class="img-responsive" alt="Responsive image"></div></div>
 		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomA2.JPG" class="img-responsive" alt="Responsive image"></div></div>
 		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomB3.JPG" class="img-responsive" alt="Responsive image"></div></div>
 		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/005RoomA3.JPG" class="img-responsive" alt="Responsive image"></div></div>
 		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/006Breakfast.JPG" class="img-responsive" alt="Responsive image"></div></div>
 		<!--<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/007Breakfast2.JPG" class="img-responsive" alt="Responsive image"></div></div>-->
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/008Captura2.PNG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/009Bathroom1.PNG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/010Bathroom2.PNG" class="img-responsive" alt="Responsive image"></div></div>
+		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/008Captura2.jpg" class="img-responsive" alt="Responsive image"></div></div>
+		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/009Bathroom1.jpg" class="img-responsive" alt="Responsive image"></div></div>
+		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/010Bathroom2.jpg" class="img-responsive" alt="Responsive image"></div></div>
       </div>
       <a class="left carousel-control" role="button" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -160,19 +161,23 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>-->
+	<a name="map"></a>
     <div class="container">
-	<div class="row">
-	  <div class="col-md-6" align="center">
-	  	<p class="lead">Less than 30 min by bus from Milton Keynes Central</p>
-	  	<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39262.63251487184!2d-0.7675201183178741!3d52.04486953452978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x4877000979c605f3%3A0x589bc8778e2ba794!2sMilton+Keynes+Central%2C+Reino+Unido!3m2!1d52.034299999999995!2d-0.77413!5e0!3m2!1ses!2suk!4v1446724037278" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-	  </div>
-	  <div class="col-md-6" align="center">
+	  <div class="row">
+	   <div class="col-md-6" align="center">
+	  	<p class="lead">Less than 20 min by bus from Milton Keynes Central</p>
+	  	<a target="_blank" href="https://www.google.co.uk/maps/dir/52.049633,-0.69185/Milton+Keynes+Central,+Milton+Keynes+MK9/@52.0442926,-0.7454961,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4877000979c605f3:0x589bc8778e2ba794!2m2!1d-0.77413!2d52.0343!3e3">
+		   <img class="img-responsive" src="<?= $conf_images_path; ?>MKC.JPG" alt="Google maps" height="300" width="400">
+		</a>
+	   </div>
+	   <div class="col-md-6" align="center">
 	     <p class="lead">Very close to Cranfield University</p>
-	     <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d39239.418206670496!2d-0.708700668067375!3d52.0712893357393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d52.0492591!2d-0.6906998999999999!4m5!1s0x4877ac4d48c8faeb%3A0x44c903e6bd92ce97!2sCranfield+University%2C+College+Rd%2C+Cranfield%2C+Bedford+MK43+0AL%2C+Reino+Unido!3m2!1d52.074389!2d-0.6292249999999999!5e0!3m2!1ses!2suk!4v1446723644960" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	    <a target="_blank" href="https://www.google.co.uk/maps/dir/52.049633,-0.69185/Cranfield+University,+College+Rd,+Cranfield,+Bedford+MK43+0AL/@52.0693912,-0.6659084,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4877ac4d48c8faeb:0x44c903e6bd92ce97!2m2!1d-0.629225!2d52.074389!3e3">
+		<img class="img-responsive" src="<?= $conf_images_path; ?>cranfield.JPG" alt="Google maps" height="300" width="400"></a>
+	   </div>
 	  </div>
-	</div>
-      </div>
-
+     </div>
+     <a name="rooms"></a>
       <footer>
         <p>&copy; Lcgaste ltd. <?= date('Y'); ?></p>
       </footer>
