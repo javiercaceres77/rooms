@@ -105,16 +105,16 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
-		<li data-target="#myCarousel" data-slide-to="4"></li>
-		<li data-target="#myCarousel" data-slide-to="5"></li>
-		<li data-target="#myCarousel" data-slide-to="6"></li>
-		<li data-target="#myCarousel" data-slide-to="7"></li>
-		<li data-target="#myCarousel" data-slide-to="8"></li>
-		<li data-target="#myCarousel" data-slide-to="9"></li>
-		<li data-target="#myCarousel" data-slide-to="10"></li>
-		<li data-target="#myCarousel" data-slide-to="11"></li>
-		<li data-target="#myCarousel" data-slide-to="12"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+	<li data-target="#myCarousel" data-slide-to="5"></li>
+	<li data-target="#myCarousel" data-slide-to="6"></li>
+	<li data-target="#myCarousel" data-slide-to="7"></li>
+	<li data-target="#myCarousel" data-slide-to="8"></li>
+	<li data-target="#myCarousel" data-slide-to="9"></li>
+	<li data-target="#myCarousel" data-slide-to="10"></li>
+	<li data-target="#myCarousel" data-slide-to="11"></li>
+	<li data-target="#myCarousel" data-slide-to="12"></li>
 		<!--<li data-target="#myCarousel" data-slide-to="13"></li>
 		<li data-target="#myCarousel" data-slide-to="14"></li>-->
       </ol>
@@ -132,17 +132,17 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         </div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB4.jpg" class="img-responsive" alt="Responsive image"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomA4.jpg" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomB2.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomA1.jpg" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomB1.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomA2.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomB3.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/005RoomA3.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/006Breakfast.JPG" class="img-responsive" alt="Responsive image"></div></div>
-		<!--<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/007Breakfast2.JPG" class="img-responsive" alt="Responsive image"></div></div>-->
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/008Captura2.jpg" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/009Bathroom1.jpg" class="img-responsive" alt="Responsive image"></div></div>
-		<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/010Bathroom2.jpg" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomB2.JPG" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomA1.jpg" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomB1.JPG" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomA2.JPG" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomB3.JPG" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/005RoomA3.JPG" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/006Breakfast.JPG" class="img-responsive" alt="Responsive image"></div></div>
+	<!--<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/007Breakfast2.JPG" class="img-responsive" alt="Responsive image"></div></div>-->
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/008Captura2.jpg" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/009Bathroom1.jpg" class="img-responsive" alt="Responsive image"></div></div>
+	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/010Bathroom2.jpg" class="img-responsive" alt="Responsive image"></div></div>
       </div>
       <a class="left carousel-control" role="button" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
