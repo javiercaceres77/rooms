@@ -119,7 +119,6 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 	<li data-target="#myCarousel" data-slide-to="14"></li>
 	<li data-target="#myCarousel" data-slide-to="15"></li>
 	<li data-target="#myCarousel" data-slide-to="16"></li>
-	<li data-target="#myCarousel" data-slide-to="17"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
