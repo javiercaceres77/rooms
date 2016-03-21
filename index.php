@@ -120,8 +120,6 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 	<li data-target="#myCarousel" data-slide-to="15"></li>
 	<li data-target="#myCarousel" data-slide-to="16"></li>
 	<li data-target="#myCarousel" data-slide-to="17"></li>
-	<li data-target="#myCarousel" data-slide-to="18"></li>
-	<li data-target="#myCarousel" data-slide-to="19"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -137,7 +135,6 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         </div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomA5.jpg" class="img-responsive" alt="Room 1, clean and spacious"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB1.jpg" class="img-responsive" alt="Room 2, clean and luminous"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/008Captura2.jpg" class="img-responsive" alt="20 min by bus to city centre"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB2.jpg" class="img-responsive" alt="Responsive image"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB4.jpg" class="img-responsive" alt="Responsive image"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomA4.jpg" class="img-responsive" alt="Responsive image"></div></div>
@@ -148,7 +145,6 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomA1.jpg" class="img-responsive" alt="Responsive image"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living05.jpg" class="img-responsive" alt="Responsive image"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomA2.JPG" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomB3.JPG" class="img-responsive" alt="Responsive image"></div></div>
 	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/005RoomA3.JPG" class="img-responsive" alt="Responsive image"></div></div>
 	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living06.jpg" class="img-responsive" alt="Responsive image"></div></div>
 	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/009Bathroom1.jpg" class="img-responsive" alt="Responsive image"></div></div>
