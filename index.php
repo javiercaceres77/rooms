@@ -126,7 +126,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <div class="container">
-		    <img src="<?= $conf_images_path; ?>/rooms/001RoomA5.jpg" class="img-responsive" alt="Responsive image">
+		    <img src="<?= $conf_images_path; ?>/rooms/011Living01.jpg" class="img-responsive" alt="Living area for breakfast, dinner or just relax">
 		    <!--<img class="first-slide" alt="First slide" src="<?= $conf_images_path; ?>/rooms/001RoomA5.jpg">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -135,7 +135,6 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
             </div>-->
           </div>
         </div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living01.jpg" class="img-responsive" alt="Living area for breakfast, dinner or just relax"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomA5.jpg" class="img-responsive" alt="Room 1, clean and spacious"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB1.jpg" class="img-responsive" alt="Room 2, clean and luminous"></div></div>
         <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/008Captura2.jpg" class="img-responsive" alt="20 min by bus to city centre"></div></div>
