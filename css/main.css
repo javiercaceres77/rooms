@@ -50,3 +50,10 @@ body {
 .websites .col-lg-4 {
     text-align: center;
 }
+.testimonial {
+	font-style: italic;
+}
+
+h2, h3 {
+	font-family: Georgia, Serif, "Times New Roman";
+}

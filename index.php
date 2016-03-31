@@ -56,13 +56,13 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="LCGaste Ltd" />
-	<meta name="keywords" content="LCGaste Rocaya ersmsk" />
-	<meta name="author" content="humans.txt">
+    <meta name="description" content="Milton Rooms short stay rooms" />
+    <meta name="keywords" content="Milton Keynes short stay accomodation rooms" />
+    <meta name="author" content="humans.txt">
 
-	<link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>::: MiltonRooms.com :::</title>
+    <title>::: MiltonRooms.com ::: Short stay accommodation</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -93,11 +93,49 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Find us</a></li>
             <li><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></li>
-			<li><a href="mailto:miltonrooms@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact</a></li>
+	    <li><a href="mailto:miltonrooms@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
+    <!-- Module and side bar ============================================= -->
+    <div class="container">
+	  <div class="row">
+	    <div class="col-md-8">
+		  <?php
+			# -------------------- INCLUDE THE MODULE view --------------------- #	
+			if(!$_GET['view']) $_GET['view'] = 'main';
+
+			$include_file = 'mod/'. $_GET['mod'] .'/'. $_GET['view'] .'.php';
+
+			if($_SESSION['login']['modules'][$_GET['mod']]['read'])
+				include $include_file;	
+		  ?>
+		</div>
+	    <div class="col-md-4" style="padding:36px;">
+		  <h2 class="text-center">Clean &amp; Modern</h2>
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center">15 Min to the centre by bus</h2>
+		  <img src="<?= $conf_images_path; ?>/rooms/mapa2.jpg" class="img-responsive" alt="15 minutes to the centre by bus">
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center">TV, Fridge, Kettel in the room</h2>
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center">Breakfast &amp; Self-serve snacks</h2>
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center">Daily cleaning of common areas</h2>
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center">From &pound;36 per night <abbr title="for 1 guest. Ask about prices for longer stays">*</abbr></h2>
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center">Living room, mini-kitchen</h2>
+		  <hr style="margin:20px 50px;">
+		  <h2 class="text-center, testimonial">&#x275D; Great stay in Milton Rooms ... &#x275E;</h2>
+		</div>
+	  </div>
+	</div>
+<?php
+exit();
+?>
+
 	<!-- Carousel   ================================================== -->
    <div class="carousel slide" id="myCarousel" data-ride="carousel">
       <!-- Indicators -->
