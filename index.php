@@ -91,7 +91,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Find us</a></li>
+            <li><a href="https://www.facebook.com/miltonroomsdotcom"><img src="<?= $conf_images_path; ?>facebook-logo.png" height="20" width="20"> /miltonroomsdotcom</a></li>
             <!--<li><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></li>-->
 	    <li><a href="mailto:miltonrooms@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact</a></li>
           </ul>
@@ -119,7 +119,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 		    <h2 class="text-center">15 Min to the centre by bus</h2>
 		    <img src="<?= $conf_images_path; ?>/rooms/mapa2.jpg" class="img-responsive" alt="15 minutes to the centre by bus">
 		    <hr style="margin:20px 50px;">
-		    <h2 class="text-center">TV, Fridge, Kettel in the room</h2>
+		    <h2 class="text-center">TV, fridge, kettle in the room</h2>
 		    <hr style="margin:20px 50px;">
 		    <h2 class="text-center">Breakfast &amp; Self-serve snacks</h2>
 		    <hr style="margin:20px 50px;">
@@ -128,8 +128,8 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 		    <h2 class="text-center">From &pound;36 <abbr title="for 1 guest. Ask about prices for longer stays">per night</abbr></h2>
 		    <hr style="margin:20px 50px;">
 		    <h2 class="text-center">Living room, mini-kitchen</h2>
-		    <hr style="margin:20px 50px;">
-		    <h2 class="text-center testimonial">&#x275D; Great stay in Milton Rooms ... &#x275E;</h2>
+		    <!--<hr style="margin:20px 50px;">
+		    <h2 class="text-center testimonial">&#x275D; Great stay in Milton Rooms ... &#x275E;</h2>-->
 		    <hr style="margin:20px 50px;">
 		    <h2 class="text-center">No deposit or cleaning fees</h2>
 			<hr style="margin:20px 50px;">
@@ -230,7 +230,7 @@ exit();
      </div>
      <a name="rooms"></a>
       <footer>
-        <p>&copy; Lcgaste ltd. <?= date('Y'); ?></p>
+        <p><a href="http://www.lcgaste.com">&copy; Lcgaste ltd.</a> <?= date('Y'); ?></p>
       </footer>
     </div> <!-- /container -->
 
