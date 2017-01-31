@@ -92,7 +92,6 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://www.facebook.com/miltonroomsdotcom"><img src="<?= $conf_images_path; ?>facebook-logo.png" height="20" width="20"> /miltonroomsdotcom</a></li>
-            <!--<li><a href="#rooms"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span> Our rooms</a></li>-->
 	    <li><a href="mailto:miltonrooms@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
@@ -136,101 +135,8 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 			<h2 class="text-center">High speed Internet access</h2>
 		</div>
 	  </div>
-	  <footer>
-        <p>&copy; Lcgaste ltd. <?= date('Y'); ?></p>
-    </footer>
-	</div> <!-- /container -->
-<?php
-exit();
-?>
-
-	<!-- Carousel   ================================================== -->
-   <div class="carousel slide" id="myCarousel" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-	<li data-target="#myCarousel" data-slide-to="3"></li>
-	<li data-target="#myCarousel" data-slide-to="4"></li>
-	<li data-target="#myCarousel" data-slide-to="5"></li>
-	<li data-target="#myCarousel" data-slide-to="6"></li>
-	<li data-target="#myCarousel" data-slide-to="7"></li>
-	<li data-target="#myCarousel" data-slide-to="8"></li>
-	<li data-target="#myCarousel" data-slide-to="9"></li>
-	<li data-target="#myCarousel" data-slide-to="10"></li>
-	<li data-target="#myCarousel" data-slide-to="11"></li>
-	<li data-target="#myCarousel" data-slide-to="12"></li>
-	<li data-target="#myCarousel" data-slide-to="13"></li>
-	<li data-target="#myCarousel" data-slide-to="14"></li>
-	<li data-target="#myCarousel" data-slide-to="15"></li>
-	<li data-target="#myCarousel" data-slide-to="16"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <div class="container">
-		    <img src="<?= $conf_images_path; ?>/rooms/011Living01.jpg" class="img-responsive" alt="Living area for breakfast, dinner or just relax">
-		    <!--<img class="first-slide" alt="First slide" src="<?= $conf_images_path; ?>/rooms/001RoomA5.jpg">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" role="button" href="#">Sign up today</a></p>
-            </div>-->
-          </div>
-        </div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomA5.jpg" class="img-responsive" alt="Room 1, clean and spacious"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB1.jpg" class="img-responsive" alt="Room 2, clean and luminous"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB2.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/001RoomB4.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomA4.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/002RoomB2.JPG" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living04.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living02.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living03.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/003RoomA1.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living05.jpg" class="img-responsive" alt="Responsive image"></div></div>
-        <div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/004RoomA2.JPG" class="img-responsive" alt="Responsive image"></div></div>
-	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/005RoomA3.JPG" class="img-responsive" alt="Responsive image"></div></div>
-	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/011Living06.jpg" class="img-responsive" alt="Responsive image"></div></div>
-	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/009Bathroom1.jpg" class="img-responsive" alt="Responsive image"></div></div>
-	<div class="item"><div class="container"><img src="<?= $conf_images_path; ?>/rooms/010Bathroom2.jpg" class="img-responsive" alt="Responsive image"></div></div>
-      </div>
-      <a class="left carousel-control" role="button" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" role="button" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-	<!-- /.carousel -->
-   <!--<div class="jumbotron">
-      <div class="container">
-        <h1>LCGaste ltd.</h1>
-        <p>IT consultancy and web development.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>-->
-	<a name="map"></a>
-    <div class="container">
-	  <div class="row">
-	   <div class="col-md-6" align="center">
-	  	<p class="lead">Less than 20 min by bus from Milton Keynes Central</p>
-	  	<a target="_blank" href="https://www.google.co.uk/maps/dir/52.049633,-0.69185/Milton+Keynes+Central,+Milton+Keynes+MK9/@52.0442926,-0.7454961,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4877000979c605f3:0x589bc8778e2ba794!2m2!1d-0.77413!2d52.0343!3e3">
-		   <img class="img-responsive" src="<?= $conf_images_path; ?>MKC.JPG" alt="Google maps" height="300" width="400">
-		</a>
-	   </div>
-	   <div class="col-md-6" align="center">
-	     <p class="lead">Very close to Cranfield University</p>
-	    <a target="_blank" href="https://www.google.co.uk/maps/dir/52.049633,-0.69185/Cranfield+University,+College+Rd,+Cranfield,+Bedford+MK43+0AL/@52.0693912,-0.6659084,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4877ac4d48c8faeb:0x44c903e6bd92ce97!2m2!1d-0.629225!2d52.074389!3e3">
-		<img class="img-responsive" src="<?= $conf_images_path; ?>cranfield.JPG" alt="Google maps" height="300" width="400"></a>
-	   </div>
-	  </div>
-     </div>
-     <a name="rooms"></a>
       <footer>
-        <p><a href="http://www.lcgaste.com">&copy; Lcgaste ltd.</a> <?= date('Y'); ?></p>
+        <p>&copy; Lcgaste ltd. <?= date('Y'); ?></p>
       </footer>
     </div> <!-- /container -->
 
