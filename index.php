@@ -139,7 +139,19 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
         <p>&copy; Lcgaste ltd. <?= date('Y'); ?></p>
       </footer>
     </div> <!-- /container -->
-
+    <div class="container">
+	<div class="row">
+	    <div class="col-md-4">
+	       <div class="airbnb-embed-frame" data-review-count="83" data-review-rating="5" data-view="star_rating_button" data-listing-id="5916430" data-eb="1462448162_hw0glUOmHC+FTT9S" data-eu="y+7mh4u+whiCdOk6Zl/EMBQ0jZUBxyxR2B1cAw5OvfeOeecSBWdo666Co3OB /pgLFpfMoMbEqt4iiicEPIp+rHXDZ/kgFMizq/JsaKfYPLaLvNUG7kmblTMR pk0F9cRnA2mA2r+qQ3k+ft0xPLws5ZAf1Sx0gLM31jCSWXWYqd0AZ6LL8Y6c e0+BKjJVTJhLvlcO+I9gjbVodmc2m8t6p9sy5kvsUzxzfCB6wp2iXSAZYrpL p+1qNkSz9CH1XOeNmMzb1PizoV4xK7T+wUGt0Pk1ekQePfT7ar58L/Q6i9Py mrU+W3glkwAr7NQ0Bci7aP4oStoMChaoxMelSBSBiw== " data-trigger-source-type="badge_center" data-embed-source-type="badge_center" data-listing-url="https://www.airbnb.co.uk/rooms/5916430" style="height:75px;margin:auto;"><a href="https://www.airbnb.co.uk/rooms/5916430"><span>5-star with </span><span><span>83 reviews</span></span></a><script async="" src="https://www.airbnb.co.uk/embeddable/airbnb_jssdk"></script></div>
+	    </div>
+	    <div class="col-md-4">
+	       <div class="airbnb-embed-frame" data-user-id="6768825" data-view="superhost_button" data-city="Milton Keynes" data-city-url="https://www.airbnb.co.uk/s/Milton-Keynes--United-Kingdom" data-eb="1462448162_hw0glUOmHC+FTT9S" data-eu="y+7mh4u+whiCdOk6Zl/EMBQ0jZUBxyxR2B1cAw5OvfeOeecSBWdo666Co3OB /pgLFpfMoMbEqt4iiicEPIp+rHXDZ/kgFMizq/JsaKfYPLaLvNUG7kmblTMR pk0F9cRnA2mA2r+qQ3k+ft0xPLws5ZAf1Sx0gLM31jCSWXWYqd0AZ6LL8Y6c e0+BKjJVTJhLvlcO+I9gjbVodmc2m8t6p9sy5kvsUzxzfCB6wp2iXSAZYrpL p+1qNkSz9CH1XOeNmMzb1PizoV4xK7T+wUGt0Pk1ekQePfT7ar58L/Q6i9Py mrU+W3glkwAr7NQ0Bci7aP4oStoMChaoxMelSBSBiw== " data-trigger-source-type="badge_center" data-embed-source-type="badge_center" style="margin:auto;height:85px;"><a href="https://www.airbnb.co.uk/users/show/6768825" rel="nofollow">Superhost</a><div>in Milton Keynes</div><script async="" src="https://www.airbnb.co.uk/embeddable/airbnb_jssdk"></script></div>
+	    </div>
+	    <div class="col-md-4">
+	       <div class="airbnb-embed-frame" data-review-count="83" data-review-rating="5" data-view="star_rating_button" data-listing-id="5916430" data-eb="1462448162_hw0glUOmHC+FTT9S" data-eu="y+7mh4u+whiCdOk6Zl/EMBQ0jZUBxyxR2B1cAw5OvfeOeecSBWdo666Co3OB /pgLFpfMoMbEqt4iiicEPIp+rHXDZ/kgFMizq/JsaKfYPLaLvNUG7kmblTMR pk0F9cRnA2mA2r+qQ3k+ft0xPLws5ZAf1Sx0gLM31jCSWXWYqd0AZ6LL8Y6c e0+BKjJVTJhLvlcO+I9gjbVodmc2m8t6p9sy5kvsUzxzfCB6wp2iXSAZYrpL p+1qNkSz9CH1XOeNmMzb1PizoV4xK7T+wUGt0Pk1ekQePfT7ar58L/Q6i9Py mrU+W3glkwAr7NQ0Bci7aP4oStoMChaoxMelSBSBiw== " data-trigger-source-type="badge_center" data-embed-source-type="badge_center" data-listing-url="https://www.airbnb.co.uk/rooms/5916430" style="height:75px;margin:auto;"><a href="https://www.airbnb.co.uk/rooms/5916430"><span>5-star with </span><span><span>83 reviews</span></span></a><script async="" src="https://www.airbnb.co.uk/embeddable/airbnb_jssdk"></script></div>
+	    </div>
+	</div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
