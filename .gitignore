@@ -1,5 +1,6 @@
-log/
+[Blog/
 tmp/
 *.log
 img/
 fonts
+css/main.css.20151110
