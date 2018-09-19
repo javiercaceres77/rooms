@@ -124,7 +124,7 @@ if(!$_GET['mod']) $_GET['mod'] = $conf_default_mod;
 		    <hr style="margin:20px 50px;">
 		    <h2 class="text-center">Daily cleaning of common areas</h2>
 		    <hr style="margin:20px 50px;">
-		    <h2 class="text-center">From &pound;36 <abbr title="for 1 guest. Ask about prices for longer stays">per night</abbr></h2>
+		    <h2 class="text-center">From &pound;38 <abbr title="for 1 guest. Ask about prices for longer stays">per night</abbr></h2>
 		    <hr style="margin:20px 50px;">
 		    <h2 class="text-center">Living room, mini-kitchen</h2>
 		    <!--<hr style="margin:20px 50px;">
